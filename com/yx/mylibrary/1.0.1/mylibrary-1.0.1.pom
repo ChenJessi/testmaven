@@ -14,6 +14,17 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <artifactId>CMCCSSOSDK-release</artifactId>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
       <groupId>androidx.appcompat</groupId>
       <artifactId>appcompat</artifactId>
       <version>1.0.2</version>
