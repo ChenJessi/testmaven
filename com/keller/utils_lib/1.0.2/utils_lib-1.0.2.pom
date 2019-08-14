@@ -8,17 +8,6 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <artifactId>CMCCSSOSDK-release</artifactId>
-      <type>aar</type>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
       <groupId>com.squareup.okhttp3</groupId>
       <artifactId>okhttp</artifactId>
       <version>3.10.0</version>
